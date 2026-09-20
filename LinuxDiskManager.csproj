@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Auto-prompts for UAC Administrator privileges required for direct disk access -->
+    <ApplicationRequestExecutionLevel>requireAdministrator</ApplicationRequestExecutionLevel>
+  </PropertyGroup>
+
+</Project>
